@@ -1,0 +1,35 @@
+/* CSS: Cascading Style Sheets */
+
+.tittle {
+    font-size: 50px;
+    font-weight: 400;    
+}
+
+section#principais-estilos {
+    background-color: black;
+    color: white;
+    padding: 50px;
+    margin: 20px 40px;
+    border: 5px solid red;
+    border-radius: 10px;
+}
+
+#principais-estilos .paragrafo {
+    font-size: 22px;
+    line-height: 1.2;
+    color: yellow;
+    font-family: 'Arial';
+}
+
+#flexbox .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center; /* Alinhamento Horizontal */
+}
+
+#flexbox .container .box {
+    width: 200px;
+    right: 200px;
+    background-color: green;
+}
